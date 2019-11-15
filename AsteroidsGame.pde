@@ -41,7 +41,7 @@ public void keyPressed(){
 	}
 	//hyperspace
 	if(key == 'h'){
-	reily.hyperspace(2);
+	reily.hyperspace();
 	}
 }
 
