@@ -15,5 +15,5 @@ class Star //note that this class does NOT extend Floater
 		fill(myColor, myTransaperency);
 		ellipse(myX, myY, (float)mySize, (float)mySize);
 	}
-  //your code here
+  
 }

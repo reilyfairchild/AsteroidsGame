@@ -12,5 +12,15 @@ class Bullet extends Floater{
 		stroke(255, 0, 0);
 		ellipse((float)myCenterX, (float)myCenterY, 5, 5);
 	}
+	public void move(){
+		myCenterX += myDirectionX;    
+    	myCenterY += myDirectionY; 
+	}
+	public double getX(){
+		return myCenterX;
+	}
+	public double getY(){
+		return myCenterY;
+	}
 
 }
